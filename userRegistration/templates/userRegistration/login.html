@@ -1,0 +1,31 @@
+{% extends "userRegistration/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="align-middle" style="padding-top:100px">
+    <div class="mx-auto" style="width: 400px" style="color :white">
+        <div class="row mx-md-n100" >
+            <div class="col px-md-5"><div class="p-3 border bg-light" ><div class="content-section">
+
+<!--    <div class="content-section">-->
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Log In</legend>
+                {{ form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Login</button>
+            </div>
+        </form>
+
+<!--    </div>-->
+    </div>
+                </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+
+
+

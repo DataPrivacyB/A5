@@ -1,0 +1,19 @@
+{% extends "userRegistration/base.html" %}
+{% block content %}
+
+<div class="align-middle" style="padding-top:100px">
+
+<div class="mx-auto" style="width: 400px">
+  <h2>You have been logged out</h2>
+    <div class="row mx-md-n10">
+  <div class="col px-md-5"><div class="p-3 border bg-light" style="box-shadow :  10px 10px 5px grey"><div class="content-section">
+
+<div class="border-top pt-3">
+        <small class="text-muted">
+            <a href="{% url 'login' %}">Log In Again</a>
+        </small>
+    </div>
+  </div>
+  </div>
+  </div>
+      {% endblock content %}
