@@ -1,0 +1,22 @@
+{% extends "userRegistration/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+        <div class="media">
+        <img class="rounded-circle account-img"  src="{{ user.profile.image.url }}">
+          <div class="media-body">
+          <h1 class="account-heading">{{ user.username }}</h1>
+          <p class="text-secondary">{{ user.email }}</p>
+            </div></div>
+        </div></div>
+      <!-- FORM HERE -->
+    </div>
+    </div>
+        </div>
+    </div>
+      </div></div>
+    </div>
+
+{% endblock content %}

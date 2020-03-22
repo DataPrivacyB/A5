@@ -1,7 +1,5 @@
 from django.urls import path,include,re_path
-from django.contrib.auth import views as auth_views
 from . import views
-from django.contrib.auth.forms import PasswordResetForm
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
@@ -13,5 +11,8 @@ urlpatterns = [
 
     path('reset/done/', auth_views.PasswordResetCompleteView.as_view(template_name='userRegistration/password_reset_complete.html'), name='password_reset_complete' ),
     path('login/',auth_views.LoginView.as_view(template_name='userRegistration/login.html'),name='login'),
-    path('logout/',auth_views.LogoutView.as_view(template_name='userRegistration/logout.html'),name='logout')
+    path('logout/',auth_views.LogoutView.as_view(template_name='userRegistration/logout.html'),name='logout'),
+    path('profile/', views.profile, name='forgot-Pass'),
+    path('registration/', views.index, name='registration'),
+    path('registration/registered', views.registered, name='registered')
 ]
