@@ -19,3 +19,9 @@ def registered(request):
 
 def profile(request):
     return render(request,'userRegistration/profile.html')
+
+def about(request):
+    return render(request,'userRegistration/about.html')
+
+def portfolio(request):
+    return render(request,'userRegistration/portfolio.html')
