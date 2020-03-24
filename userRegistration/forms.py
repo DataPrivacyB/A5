@@ -1,5 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
+from .models import SharesHeld,Shares
 from django.contrib.auth.forms import UserCreationForm
 
 class RegistrationForm(UserCreationForm):
@@ -19,3 +20,28 @@ class RegistrationForm(UserCreationForm):
             user.save()
 
         return user
+
+def get_list():
+    c = [1, 2, 3, 4]
+    return c
+
+
+class sharesUpdateForm(forms.Form):
+    Name = forms.ModelChoiceField(queryset = Shares.objects.all())
+    Price = forms.FloatField()
+    Quantity = forms.IntegerField()
+
+    class Meta:
+        model = SharesHeld
+        fields = ['Name','Price','Quantity']
+
+    def save(self, commit=True):
+        sharesHeld = SharesHeld()
+        sharesHeld.Name = self.cleaned_data['Name']
+        sharesHeld.Price = self.cleaned_data['Price']
+        sharesHeld.Quantity = self.cleaned_data['Quantity']
+
+        if commit:
+            sharesHeld.save()
+
+        return sharesHeld
