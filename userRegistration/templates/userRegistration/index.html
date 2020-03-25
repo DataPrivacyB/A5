@@ -1,0 +1,21 @@
+{% extends 'userRegistration/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="align-middle" style="padding-top:100px">
+    <div class="mx-auto" style="width: 550px;box-shadow:10px 10px 5px grey;" >
+        <div class="p-3 border bg-white" >
+            <form class="form-horizontal" method="POST">
+                <legend class="border-bottom mb-4" style="padding-left:220px">Sign In</legend>
+                    {% csrf_token %}
+                    {{ form | crispy }}
+            <div class="form-group" style="padding-top:0px">
+                <button class="btn btn-primary btn-block" type="submit"><span class = "glyphicon glyphicon-save"></span> REGISTER</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
