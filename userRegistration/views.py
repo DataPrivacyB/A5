@@ -31,12 +31,15 @@ def registered(request):
 def profile(request):
     return render(request,'userRegistration/profile.html')
 
+<<<<<<< HEAD
 
 def Home(request):
     return render(request,'userRegistration/Home.html')
 def AboutProject(request):
     return render(request,'userRegistration/AboutProject.html')
 
+=======
+>>>>>>> 10eb71ea7516a2b4192d26f769293fed33b8a046
 def about(request):
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name(

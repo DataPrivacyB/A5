@@ -17,6 +17,9 @@ urlpatterns = [
     path('registration/registered', views.registered, name='registered'),
     path('about/', views.about, name='about'),
     path('portfolio/', views.portfolio, name='portfolio'),
+<<<<<<< HEAD
     path('Home/', views.Home, name='Home'),
     path('AboutProject/', views.AboutProject, name='AboutProject'),
+=======
+>>>>>>> 10eb71ea7516a2b4192d26f769293fed33b8a046
 ]
