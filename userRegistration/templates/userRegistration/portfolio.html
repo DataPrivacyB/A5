@@ -2,18 +2,15 @@
 {% load crispy_forms_tags %}
 {% block content %}
 <style>
-    body {
-        margin : 30px;
-    }
     </style>
 <div  style="padding-top:30px; box-shadow:1px 1px 2px grey;">
     <div class="row myr justify-content-between">
-        <div class="col-md-3 myc1">
+        <div class="col-md-3 myc1"  style="padding-left:60px">
             <div class="row mynr justify-content-between">
-                <div  style="width: 350px;height:1000px; box-shadow:1px 1px 2px grey;">
-                    <div class="p-0" style="padding:0">
+                <div  style="width: 450px;height:1000px; box-shadow:1px 1px 2px grey;">
+                    <div class="p-0" >
                 <span class="border border-secoundary">
-                    <div class="text-center">
+                    <div class="text-center" style="padding-left:80px">
                         <img class="rounded img-thumbnail"  src="{{ user.profile.image.url }}">
                     </div>
                 </span>
@@ -51,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-9 myc2  align-self-start">
+        <div class="col-md-9 myc2">
             <div  style="box-shadow:1px 1px 2px grey;">
                 <div class="btn-group btn-group-toggle btn-block btn-lg">
                     <a href="{% url 'portfolio' %}" class="btn btn-light btn-outline-secondary "><h5>PortFolio</h5></a>
@@ -76,7 +73,7 @@
                                 <div class="col-md myc">
                                     <h4 class="text-center border-bottom" style="padding-top:0px">Current</h4>
                                     {% if current <= 0 %}
-                                    <h5 class="text-center text-danger" style="padding-top:0px">{{ current }}</h5>
+                                    <h5 class="text-center font-weight-bold text-danger" style="padding-top:0px">{{ current }}</h5>
                                     {% else %}
                                     <h5 class="text-center text-success" style="padding-top:0px">{{ current }}</h5>
                                     {% endif %}

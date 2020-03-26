@@ -19,4 +19,7 @@ urlpatterns = [
     path('registration/registered', views.registered, name='registered'),
     path('about/', views.about, name='about'),
     path('portfolio/', views.portfolio, name='portfolio'),
+    path('Home/', views.Home, name='Home'),
+    path('AboutProject/', views.AboutProject, name='AboutProject'),
+
 ]

@@ -11,6 +11,13 @@ from oauth2client.service_account import ServiceAccountCredentials
 from django.contrib import messages
 
 
+def Home(request):
+    return render(request,'userRegistration/Home.html')
+
+def AboutProject(request):
+    return render(request,'userRegistration/AboutProject.html')
+
+
 def index(request):
     if request.method =='POST':
         form = RegistrationForm(request.POST)
@@ -30,7 +37,22 @@ def profile(request):
     return render(request,'userRegistration/profile.html')
 
 def about(request):
-    return render(request,'userRegistration/about.html')
+    scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name(
+        'C:\\Users\\Akshay Bali\\Desktop\\A5\\userRegistration\\FinanceA5-4cec9ccde82f.json', scope)
+    client = gspread.authorize(creds)
+    sheet = client.open('A5_Finance').sheet1
+
+    niftyData = sheet.get_all_values()
+    headers = niftyData.pop(0)
+
+    df = pd.DataFrame(niftyData, columns=headers)
+    print(headers)
+    context ={
+        'headers' : headers,
+        'data' : df.iloc[0:].to_html(classes="table-bordered table-hover table-wrapper-scroll-y my-custom-scrollbar")
+    }
+    return render(request,'userRegistration/about.html',context)
 
 def portfolio(request):
 
