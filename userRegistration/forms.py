@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from .models import SharesHeld,Shares
 from django.contrib.auth.forms import UserCreationForm
 
+
 class RegistrationForm(UserCreationForm):
     email = forms.EmailField(required=True)
 
@@ -21,9 +22,6 @@ class RegistrationForm(UserCreationForm):
 
         return user
 
-def get_list():
-    c = [1, 2, 3, 4]
-    return c
 
 
 class sharesUpdateForm(forms.Form):

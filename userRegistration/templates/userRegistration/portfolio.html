@@ -5,11 +5,10 @@
     body {
         margin : 30px;
     }
-
-</style>
+    </style>
 <div  style="padding-top:30px; box-shadow:1px 1px 2px grey;">
     <div class="row myr justify-content-between">
-        <div class="col-md-3 myc1 ">
+        <div class="col-md-3 myc1">
             <div class="row mynr justify-content-between">
                 <div  style="width: 350px;height:1000px; box-shadow:1px 1px 2px grey;">
                     <div class="p-0" style="padding:0">
@@ -31,7 +30,15 @@
                             <h4>Manage Your PortFolio</h4>
                             <form  method="POST">
                                 {% csrf_token %}
+                                {%if messages %}
+                                {%for message in messages%}
+                                    <div class="alert alert-danger">
+                                        {{ message }}
+                                    </div>
+                                {% endfor %}
+                                {% endif %}
                                 {{form | crispy}}
+
                                 <div class="text-center" style="padding-bottom:20px">
                                     <input type="submit" class="btn btn-light btn-block btn-outline-primary" name="buy" value="Buy/Add" />
                                 </div>
@@ -41,7 +48,6 @@
                             </form>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -52,55 +58,70 @@
                     <a href="{% url 'about' %}" class="btn btn-light btn-outline-secondary"  ><h5>About</h5></a>
                 </div>
             </div>
+<div class="card bg-light"style="padding-bottom:0px;box-shadow:5px 5px 2px grey;">
+                <div class="card-body">
 
             <div class="row myr1">
-                <div class="col-md-5 myc">
-                    <h1>PortFolio</h1>
+                <div class="col-md myc">
+                    <h2 class="text-center">PortFolio</h2>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="card" style="box-shadow:1px 1px 2px grey;">
+                    <div class="card" style="padding-bottom:5px;">
                         <div class="card-body">
-
                             <div class="row myr1">
                                 <div class="col-md-6 myc">
-                                    <h4 class="text-center border-bottom" style="padding-top:10px">Invested</h4>
-                                    <h5 class="text-center" style="padding-top:10px">100</h5>
+                                    <h4 class="text-center border-bottom" style="padding-top:0px">Invested</h4>
+                                    <h5 class="text-center" style="padding-top:0px">{{ invest }}</h5>
                                 </div>
                                 <div class="col-md myc">
-                                    <h4 class="text-center border-bottom" style="padding-top:10px">Current</h4>
-                                    <h5 class="text-center" style="padding-top:10px">100</h5>
+                                    <h4 class="text-center border-bottom" style="padding-top:0px">Current</h4>
+                                    {% if current <= 0 %}
+                                    <h5 class="text-center text-danger" style="padding-top:0px">{{ current }}</h5>
+                                    {% else %}
+                                    <h5 class="text-center text-success" style="padding-top:0px">{{ current }}</h5>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div></div>
-                    <div class="card"style="box-shadow:1px 1px 2px grey;">
+                    <div class="card"style="box-shadow:5px 5px 2px grey;">
                         <div class="card-body">
 
                             <div class="row myr1">
                                 <div class="col-md myc">
-                                    <h4 class="text-center border-bottom" style="padding-top:10px">Profit/Loss</h4>
-                                    <h5 class="text-center">{{data}}</h5>
+                                    <h4 class="text-center border-bottom" style="padding-top:0px">Profit/Loss</h4>
+                                    {% if netPl <= 0 %}
+                                        <h5 class="text-center text-danger" style="padding-top:10px">{{ netPl }}</h5>
+                                    {% else %}
+                                        <h5 class="text-center text-success" style="padding-top:10px">{{ netPl }}</h5>
+                                    {% endif %}
+
                                 </div>
                             </div>
                         </div>
                     </div>
             {% for x in data %}
+                    {% if x.Quantity > 0 %}
             <div class="card" style="box-shadow:3px 3px 4px grey;">
                 <div class="card-body">
                     <div class="row myr1">
                         <div class="col-md-6 myc">
-                            <h6 style="padding-left:25px">Quantity : 10</h6>
-                            <h5 style="padding-left:25px">IBULHSG</h5>
-                            <h6 style="padding-left:25px">Avg. Traded Price : 90.4</h6>
+                            <h6 class="border-bottom" style="padding-left:25px">Quantity : {{ x.Quantity }}</h6>
+                            <h5 class ="text-primary" style="padding-left:25px;padding-top:10px">{{ x.Name }}</h5>
+                            <h6 style="padding-left:25px;padding-top:10px">Avg. Traded Price : {{ x.buyPrice }}</h6>
                         </div>
                         <div class="col-md myc">
-                            <h5 style="padding-top:15px">P/L : 100</h5>
-                            <h6 class="align-bottom">last Traded Price : 90.4</h6>
+                            <h6 class="border-bottom text-center">Invested : {{x.investment }}</h6>
+                            {% if x.pl <= 0 %}
+                                        <h5 class=" text-danger text-center" style="padding-top:10px">P/L : {{x.pl}}</h5>
+                                    {% else %}
+                                        <h5 class="text-success text-center" style="padding-top:10px">P/L : {{x.pl}}</h5>
+                                    {% endif %}
+                            <h6 class="align-bottom text-center" style="padding-top:10px">last Traded Price : {{x.livePrice }}</h6>
                         </div>
                     </div>
                 </div>
             </div>
+                    {% endif %}
             {% endfor %}
                     </div></div>
         </div>

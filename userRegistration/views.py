@@ -1,16 +1,14 @@
 from django.shortcuts import render, redirect
 from userRegistration.forms import RegistrationForm
 from .forms import sharesUpdateForm
+import pandas as pd
+from userRegistration.liveShares import liveShare
+from .models import Shares
+from .models import SharesHeld
 import gspread
 import pprint
-from .models import Shares
 from oauth2client.service_account import ServiceAccountCredentials
-
-from django.views.generic import CreateView
-from .models import SharesHeld
-from django.urls import reverse
-# Create your views here.
-
+from django.contrib import messages
 
 
 def index(request):
@@ -31,45 +29,75 @@ def registered(request):
 def profile(request):
     return render(request,'userRegistration/profile.html')
 
-<<<<<<< HEAD
-
-def Home(request):
-    return render(request,'userRegistration/Home.html')
-def AboutProject(request):
-    return render(request,'userRegistration/AboutProject.html')
-
-=======
->>>>>>> 10eb71ea7516a2b4192d26f769293fed33b8a046
 def about(request):
+    return render(request,'userRegistration/about.html')
+
+def portfolio(request):
+
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name(
         'C:\\Users\\Akshay Bali\\Desktop\\A5\\userRegistration\\FinanceA5-4cec9ccde82f.json', scope)
     client = gspread.authorize(creds)
     sheet = client.open('A5_Finance').sheet1
 
-    niftyData = sheet.get_all_records()
-
-    pp = pprint.PrettyPrinter()
-    for data in niftyData:
-        print(data['TICKER'])
-        s = Shares(Name=data['TICKER'])
-        s.save()
-    return render(request,'userRegistration/about.html')
-
-def portfolio(request):
-    print("Hello")
-    if request.method == 'POST':# and "buy" in request.POST:
+    if request.method == 'POST':
         form = sharesUpdateForm(request.POST)
         if form.is_valid():
-            form.save()
             Name = form.cleaned_data.get('Name')
-            return redirect('about')
+            Quantity = form.cleaned_data.get('Quantity')
+            Price = form.cleaned_data.get('Price')
+            s = SharesHeld.objects.filter(Name = Name)
+            if s and "buy" in request.POST:
+                print(s)
+                s = SharesHeld.objects.get(Name = Name)
+                s.Quantity += Quantity
+                s.save()
+            elif s and "sell" in request.POST:
+                s = SharesHeld.objects.get(Name=Name)
+                if s.Quantity - Quantity >= 0:
+                    s.Quantity -= Quantity
+                    s.save()
+                else :
+                    messages.success(request, 'Not Enougn Shares!')
+            elif not s and "buy" in request.POST:
+                s = SharesHeld(Name = Name,Quantity =Quantity,Price=Price)
+                s.save()
+                print("yess")
+            else:
+                messages.success(request,'You do not have the share in your PortFolio!')
+            return redirect('portfolio')
     else:
         form = sharesUpdateForm()
-    data = [1, 3, 3]
+
+
+
+
+    niftyData = sheet.get_all_values()
+    headers = niftyData.pop(0)
+    df = pd.DataFrame(niftyData, columns=headers)
+    shares = SharesHeld.objects.all()
+    name = "WIPRO"
+    items = []
+    netProfitLoss = 0
+    investment = 0
+    current = 0
+    avg = 0
+    for share in shares:
+        shareData = df.query("TICKER == '{0}'".format(share.Name))
+        print("LTP : ", shareData.iloc[0]['LTP'])
+        s = liveShare(share.Name,share.Quantity,
+                          float(shareData.iloc[0]['LTP']),
+                           share.Price)
+        netProfitLoss += s.pl
+        investment += s.investment
+        current += s.liveValue
+        items.append(s)
+
     context = {
-        'data': data,
+        'data': items,
         'form' : form,
-        #'Name' : Name
+        'netPl' : netProfitLoss,
+        'current' : current,
+        'invest' : investment
     }
     return render(request,'userRegistration/portfolio.html',context)
