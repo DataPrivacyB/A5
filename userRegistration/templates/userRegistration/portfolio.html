@@ -10,7 +10,7 @@
                 <div  style="width: 450px;height:1000px; box-shadow:1px 1px 2px grey;">
                     <div class="p-0" >
                 <span class="border border-secoundary">
-                    <div class="text-center" style="padding-left:80px">
+                    <div class="text-center" style="padding-left:50px;padding-right:30px">
                         <img class="rounded img-thumbnail"  src="{{ user.profile.image.url }}">
                     </div>
                 </span>
@@ -29,9 +29,9 @@
                                 {% csrf_token %}
                                 {%if messages %}
                                 {%for message in messages%}
-                                    <div class="alert alert-danger">
-                                        {{ message }}
-                                    </div>
+                                <div class="alert alert-danger">
+                                    {{ message }}
+                                </div>
                                 {% endfor %}
                                 {% endif %}
                                 {{form | crispy}}
@@ -55,14 +55,14 @@
                     <a href="{% url 'about' %}" class="btn btn-light btn-outline-secondary"  ><h5>About</h5></a>
                 </div>
             </div>
-<div class="card bg-light"style="padding-bottom:0px;box-shadow:5px 5px 2px grey;">
+            <div class="card bg-light"style="padding-bottom:0px;box-shadow:5px 5px 2px grey;">
                 <div class="card-body">
 
-            <div class="row myr1">
-                <div class="col-md myc">
-                    <h2 class="text-center">PortFolio</h2>
-                </div>
-            </div>
+                    <div class="row myr1">
+                        <div class="col-md myc">
+                            <h2 class="text-center">PortFolio</h2>
+                        </div>
+                    </div>
                     <div class="card" style="padding-bottom:5px;">
                         <div class="card-body">
                             <div class="row myr1">
@@ -87,40 +87,40 @@
                                 <div class="col-md myc">
                                     <h4 class="text-center border-bottom" style="padding-top:0px">Profit/Loss</h4>
                                     {% if netPl <= 0 %}
-                                        <h5 class="text-center text-danger" style="padding-top:10px">{{ netPl }}</h5>
+                                    <h5 class="text-center text-danger" style="padding-top:10px">{{ netPl }}</h5>
                                     {% else %}
-                                        <h5 class="text-center text-success" style="padding-top:10px">{{ netPl }}</h5>
+                                    <h5 class="text-center text-success" style="padding-top:10px">{{ netPl }}</h5>
                                     {% endif %}
 
                                 </div>
                             </div>
                         </div>
                     </div>
-            {% for x in data %}
+                    {% for x in data %}
                     {% if x.Quantity > 0 %}
-            <div class="card" style="box-shadow:3px 3px 4px grey;">
-                <div class="card-body">
-                    <div class="row myr1">
-                        <div class="col-md-6 myc">
-                            <h6 class="border-bottom" style="padding-left:25px">Quantity : {{ x.Quantity }}</h6>
-                            <h5 class ="text-primary" style="padding-left:25px;padding-top:10px">{{ x.Name }}</h5>
-                            <h6 style="padding-left:25px;padding-top:10px">Avg. Traded Price : {{ x.buyPrice }}</h6>
-                        </div>
-                        <div class="col-md myc">
-                            <h6 class="border-bottom text-center">Invested : {{x.investment }}</h6>
-                            {% if x.pl <= 0 %}
-                                        <h5 class=" text-danger text-center" style="padding-top:10px">P/L : {{x.pl}}</h5>
+                    <div class="card" style="box-shadow:3px 3px 4px grey;">
+                        <div class="card-body">
+                            <div class="row myr1">
+                                <div class="col-md-6 myc">
+                                    <h6 class="border-bottom" style="padding-left:25px">Quantity : {{ x.Quantity }}</h6>
+                                    <h5 class ="text-primary" style="padding-left:25px;padding-top:10px">{{ x.Name }}</h5>
+                                    <h6 style="padding-left:25px;padding-top:10px">Avg. Traded Price : {{ x.buyPrice }}</h6>
+                                </div>
+                                <div class="col-md myc">
+                                    <h6 class="border-bottom text-center">Invested : {{x.investment }}</h6>
+                                    {% if x.pl <= 0 %}
+                                    <h5 class=" text-danger text-center" style="padding-top:10px">P/L : {{x.pl}}</h5>
                                     {% else %}
-                                        <h5 class="text-success text-center" style="padding-top:10px">P/L : {{x.pl}}</h5>
+                                    <h5 class="text-success text-center" style="padding-top:10px">P/L : {{x.pl}}</h5>
                                     {% endif %}
-                            <h6 class="align-bottom text-center" style="padding-top:10px">last Traded Price : {{x.livePrice }}</h6>
+                                    <h6 class="align-bottom text-center" style="padding-top:10px">last Traded Price : {{x.livePrice }}</h6>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
                     {% endif %}
-            {% endfor %}
-                    </div></div>
+                    {% endfor %}
+                </div></div>
         </div>
     </div>
 </div>

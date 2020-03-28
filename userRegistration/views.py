@@ -1,18 +1,18 @@
 from django.shortcuts import render, redirect
 from userRegistration.forms import RegistrationForm
-from .forms import sharesUpdateForm
+from .forms import sharesUpdateForm,getDataSets,plotCol
 import pandas as pd
 from userRegistration.liveShares import liveShare
-from .models import Shares
-from .models import SharesHeld
+from .models import SharesHeld,Shares
 import gspread
-import pprint
 from oauth2client.service_account import ServiceAccountCredentials
 from django.contrib import messages
-
+import pandas_datareader.data as web
+import datetime as dt
+from nsepy import get_history
 
 def Home(request):
-    return render(request,'userRegistration/Home.html')
+    return render(request,'userRegistration/home.html')
 
 def AboutProject(request):
     return render(request,'userRegistration/AboutProject.html')
@@ -37,20 +37,72 @@ def profile(request):
     return render(request,'userRegistration/profile.html')
 
 def about(request):
+
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name(
         'C:\\Users\\Akshay Bali\\Desktop\\A5\\userRegistration\\FinanceA5-4cec9ccde82f.json', scope)
     client = gspread.authorize(creds)
     sheet = client.open('A5_Finance').sheet1
 
-    niftyData = sheet.get_all_values()
-    headers = niftyData.pop(0)
 
-    df = pd.DataFrame(niftyData, columns=headers)
+    niftyData = ""
+    headers = ""
+    df = pd.DataFrame()
     print(headers)
+    Name ="Nifty 50"
+    labels = [0,1,2]
+    chartData = []
+    if request.method == 'POST' and 'view' in request.POST:
+        form = getDataSets(request.POST)
+        if form.is_valid():
+            Choice = form.cleaned_data.get('Choice')
+            print('Choice :',Choice)
+            if Choice == '1' :
+                niftyData = sheet.get_all_values()
+                headers = niftyData.pop(0)
+                df = pd.DataFrame(niftyData, columns=headers)
+                graphForm = plotCol()
+            else :
+                Name = form.cleaned_data.get('SelectStock')
+                Name = str(Name)
+                print(Name)
+                startDate = form.cleaned_data.get('StartDate')
+                EndDate = form.cleaned_data.get('EndDate')
+                df = get_history(symbol = Name,start=startDate,end=EndDate)
+                df['Close'].values.tolist()
+                chartData = df['Close'].values.tolist()
+                labels = list(range(0, len(chartData)))
+                #pd.date_range(startDate, EndDate).tolist()
+                print(labels)
+                graphForm = plotCol()
+
+    elif request.method == 'POST' and 'plot' in request.POST:
+        graphForm = plotCol(request.POST)
+
+        if graphForm.is_valid():
+            Choice = graphForm.cleaned_data.get('Choice')
+            Name = graphForm.cleaned_data.get('SelectStock')
+            Name = str(Name)
+            print(Name)
+            startDate = graphForm.cleaned_data.get('StartDate')
+            EndDate = graphForm.cleaned_data.get('EndDate')
+            df = get_history(symbol=Name, start=startDate, end=EndDate)
+            chartData = df[Choice].values.tolist()
+            print(Choice)
+            print(len(chartData))
+            labels = list(range(0, len(chartData)))
+            form = getDataSets()
+
+    else:
+        form = getDataSets()
+        graphForm = plotCol()
     context ={
-        'headers' : headers,
-        'data' : df.iloc[0:].to_html(classes="table-bordered table-hover table-wrapper-scroll-y my-custom-scrollbar")
+        'form' : form,
+        'graphForm' : graphForm,
+        'head' : Name,
+        'labels': labels,
+        'chartData': chartData,
+        'data' : df.iloc[0:].to_html(classes="table-borderles table-hover table-wrapper-scroll-y my-custom-scrollbar")
     }
     return render(request,'userRegistration/about.html',context)
 

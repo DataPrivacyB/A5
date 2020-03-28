@@ -1,23 +1,128 @@
+
+
 {% extends "userRegistration/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-    <style>
-        .myr{
-            border : 2px solid red
-        }
-        .myr1{
-            border : 2px solid red
-        }
-        .myc{
-            border : 3px solid green
-        }
-    </style>
-<div  style="padding-top:30px;padding-left:30px;">
-    <div class="container" >
-        <div class="table-wrapper-scroll-y my-custom-scrollbar">
-            {{ data | safe }}
+<!--<style>-->
+<!--        .myr{-->
+<!--            border : 2px solid blue-->
+<!--        }-->
+<!--        .myr1{-->
+<!--            border : 2px solid red-->
+<!--        }-->
+<!--        .myc1{-->
+<!--            border : 3px solid green-->
+<!--        }-->
+<!--        .mynr{-->
+<!--            border : 3px solid purple-->
+<!--        }-->
+<!--    </style>-->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+<script>
+    var config = {
+      type: 'line',
+      data: {
+        datasets: [{
+         data: {{ chartData }},
+        label: 'Date',
+        borderColor: "#3e95cd",
+        fill: false
+        }],
+         labels: {{ labels }}
+      },
+      options: {
+    responsive: true,
+    }
+
+    };
+
+    window.onload = function() {
+      var ctx = document.getElementById('pie-chart').getContext('2d');
+      window.myPie = new Chart(ctx, config);
+    };
+
+  </script>
+<div  style="padding-top:30px; box-shadow:1px 1px 2px grey;">
+    <div class="row myr justify-content-between">
+        <div class="col-md-3 myc1"  style="padding-left:60px">
+            <div class="row mynr justify-content-between">
+                <div  style="width: 450px;height:2000px; box-shadow:1px 1px 2px grey;">
+                    <div style="padding-left:15px;padding-top:100px;">
+                        <div class="card-body text-center" style="width:320px; box-shadow:1px 1px 2px grey;">
+                            <h4>View Stock Data</h4>
+                            <form  method="POST">
+                                {% csrf_token %}
+                                {%if messages %}
+                                {%for message in messages%}
+                                <div class="alert alert-danger">
+                                    {{ message }}
+                                </div>
+                                {% endfor %}
+                                {% endif %}
+                                {{graphForm | crispy}}
+
+                                <div class="text-center">
+                                    <input type="submit" class="btn btn-light btn-block btn-outline-primary" name="plot" value="Plot" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div style="padding-left:15px;padding-top:200px;">
+                        <div class="card-body text-center" style="width:320px; box-shadow:1px 1px 2px grey;">
+                            <h4>View Stock Data</h4>
+                            <form  method="POST">
+                                {% csrf_token %}
+                                {%if messages %}
+                                {%for message in messages%}
+                                <div class="alert alert-danger">
+                                    {{ message }}
+                                </div>
+                                {% endfor %}
+                                {% endif %}
+                                {{form | crispy}}
+
+                                <div class="text-center">
+                                    <input type="submit" class="btn btn-light btn-block btn-outline-primary" name="view" value="View" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 myc2">
+            <div class="card"style="padding-bottom:0px;box-shadow:5px 5px 2px grey;">
+                <div class="card-body">
+
+                    <div class="row myr1">
+                        <div class="col-md myc">
+                            <h4 class="text-center text-bold">{{ head }}</h4>
+                            <div class="container" style="height:600px;overflow:auto;padding-top:20px;">
+                                <div class="row myr" >
+                                      <canvas id="pie-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row myr1">
+                        <div class="col-md myc">
+                            <h4 class="text-center text-bold">{{ head }}</h4>
+                            <div class="container" style="height:600px;overflow:auto;padding-top:20px;">
+                                <div class="row myr" >
+                                    {{ data | safe }}
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 {% endblock content %}
+
+

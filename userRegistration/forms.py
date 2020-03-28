@@ -43,3 +43,33 @@ class sharesUpdateForm(forms.Form):
             sharesHeld.save()
 
         return sharesHeld
+class plotCol(forms.Form):
+    options = (
+        ("Series", "Series"),("Prev Close", "Prev Close"),("Open", "Open"),
+        ("High", "High"),("Low", "Low"),
+        ("Last", "Last"),("CLose", "Close"),("VWAP", "VWAP"),("Volume", "Volume"),
+        ("Turnover", "Turnover"),
+        ("Trades", "Trades"),("Deliverable Volume", "Deliverable Volume"),
+        ("Deliverble", "%Deliverble"),
+    )
+    Choice = forms.ChoiceField(choices=options)
+    SelectStock = forms.ModelChoiceField(queryset=Shares.objects.all())
+    StartDate = forms.DateField(input_formats=['%d/%m/%Y'])
+    EndDate = forms.DateField(input_formats=['%d/%m/%Y'])
+    class Meta:
+        fields = ['Choice','SelectStock','StartDate','EndDate']
+
+class getDataSets(forms.Form):
+    options = (
+        ("1", "Nifty 50"),
+        ("2", "Historic DataSet"),
+    )
+    Choice = forms.ChoiceField(choices=options)
+    SelectStock = forms.ModelChoiceField(queryset = Shares.objects.all())
+    StartDate = forms.DateField(input_formats=['%d/%m/%Y'])
+    EndDate = forms.DateField(input_formats=['%d/%m/%Y'])
+
+    class Meta:
+        #model = SharesHeld
+        fields = ['Choice','SelectStock','StartDate','EndDate']
+
