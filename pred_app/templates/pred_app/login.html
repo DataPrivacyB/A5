@@ -1,0 +1,34 @@
+{% extends "pred_app/home.html" %}
+{% load static %}
+{% block content %}
+<!--{% load crispy_forms_tags %}-->
+<div class="align-middle" style="padding-top:100px">
+
+    <div class="mx-auto" style="width: 450px; box-shadow:10px 10px 5px grey;">
+        <div class="p-3 border bg-white" >
+            <form class="form-horizontal" method="POST">
+                <legend class="border-bottom mb-4" style="padding-left:175px">Log In</legend>
+                <div class="container" style="padding-left:160px">
+                    <img src = "{%static "login1.png" %}" heigh=100 width = 100 />
+                </div>
+                {% csrf_token %}
+                {{ form | crispy }}
+                <a class="font-weight-bold ml-2" style=" padding-left:230px "  href="{% url 'password_reset' %}">Forgot Your Password?</a>
+                <div class="form-group" style="padding-top:10px">
+                    <button class="btn btn-outline-info btn-block"  type="submit">Login</button>
+                </div>
+                <div class="border-top pt-3">
+                    <small class="text-muted">
+                        Dont Have An Account? <a class="font-weight-bold ml-2" href="{% url 'registration' %}">Sign Up Now!</a>
+                    </small>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+
+
+

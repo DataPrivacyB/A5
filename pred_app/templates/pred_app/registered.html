@@ -1,0 +1,8 @@
+{% extends "pred_app/home.html" %}
+{% load static %}
+{% block content %}
+
+<center><h2>You Successfully Registered!</h2></center>
+<center><a href="{% url 'registration:index' %}"><button class="btn btn-success">Back</button></a></center>
+
+{% endblock content %}

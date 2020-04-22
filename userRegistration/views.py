@@ -10,6 +10,13 @@ from django.contrib import messages
 import pandas_datareader.data as web
 import datetime as dt
 from nsepy import get_history
+from .paillier import paillier as p
+from django.views.decorators.cache import cache_page
+from .forms import UserEditForm
+from django.views.decorators.csrf import csrf_protect, csrf_exempt
+
+priv, pub = p.generate_keypair(16)
+
 
 pd.set_option('display.max_columns', None)
 def Home(request):
@@ -32,7 +39,7 @@ def index(request):
         return render(request, 'userRegistration/index.html', args)
 
 def registered(request):
-    return render(request, 'userRegistration/registered.html')
+    return render(request, 'userRegistration/login.html')
 
 
 def profile(request):
@@ -41,7 +48,19 @@ def profile(request):
 def practice(request):
     return render(request,'userRegistration/p.html')
 
+def edituser(request):
+    if request.method =='POST':
+        form = UserEditForm(request.POST,instance=request.user)
+        if form.is_valid():
+            form.save()
+            return redirect('login')
+    else:
+        form = UserEditForm(instance=request.user)
+        args = {'form': form}
+        return render(request, 'userRegistration/edituser.html', args)
 
+
+@csrf_exempt
 def about(request):
 
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
@@ -118,6 +137,8 @@ def about(request):
     }
     return render(request,'userRegistration/about.html',context)
 
+
+@csrf_protect
 def portfolio(request):
 
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
@@ -131,19 +152,26 @@ def portfolio(request):
         if form.is_valid():
             Name = form.cleaned_data.get('Name')
             Quantity = form.cleaned_data.get('Quantity')
+            Quantity = p.encrypt(pub, Quantity)
             Price = form.cleaned_data.get('Price')
+            Price = int(Price)
+            print("int p:",Price)
+            Price = p.encrypt(pub,Price)
             s = SharesHeld.objects.filter(Name = Name)
             if s and "buy" in request.POST:
-                print(s)
+                print("S:",s)
                 s = SharesHeld.objects.get(Name = Name)
-                s.Quantity += Quantity
+                s.Quantity = p.e_add(pub, s.Quantity, Quantity)
+                # s.Quantity += Quantity
+                print("sDc:",p.decrypt(priv, pub, s.Quantity))
                 s.save()
             elif s and "sell" in request.POST:
                 s = SharesHeld.objects.get(Name=Name)
-                if s.Quantity - Quantity >= 0:
-                    s.Quantity -= Quantity
+                b = p.e_sub(pub, s.Quantity, Quantity)
+                if p.e_sub(pub, s.Quantity, Quantity) >= 0:
+                    s.Quantity = p.e_sub(pub, s.Quantity, Quantity)
                     s.save()
-                else :
+                else:
                     messages.success(request, 'Not Enougn Shares!')
             elif not s and "buy" in request.POST:
                 s = SharesHeld(Name = Name,Quantity =Quantity,Price=Price)
@@ -153,6 +181,7 @@ def portfolio(request):
                 messages.success(request,'You do not have the share in your PortFolio!')
             return redirect('portfolio')
     else:
+        print("in Else")
         form = sharesUpdateForm()
 
 
@@ -166,17 +195,21 @@ def portfolio(request):
     investment = 0
     current = 0
     avg = 0
+    print(shares)
     for share in shares:
         shareData = df.query("TICKER == '{0}'".format(share.Name))
         print("LTP : ", shareData.iloc[0]['LTP'])
-        s = liveShare(share.Name,share.Quantity,
+        print("sq:",share.Quantity)
+        quantity = p.decrypt(priv, pub, share.Quantity)
+        price = p.decrypt(priv, pub, int(share.Price))
+        print("Quantity:",quantity)
+        s = liveShare(share.Name,quantity,#share.Quantity,
                           float(shareData.iloc[0]['LTP']),
-                           share.Price)
+                           price)#share.Price
         netProfitLoss += s.pl
         investment += s.investment
         current += s.liveValue
         items.append(s)
-
     context = {
         'data': items,
         'form' : form,

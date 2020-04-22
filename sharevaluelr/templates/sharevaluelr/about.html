@@ -1,0 +1,23 @@
+{% extends "userRegistration/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <style>
+        .myr{
+            border : 2px solid red
+        }
+        .myr1{
+            border : 2px solid red
+        }
+        .myc{
+            border : 3px solid green
+        }
+    </style>
+<div  style="padding-top:30px;padding-left:30px;">
+    <div class="container" >
+        <div class="table-wrapper-scroll-y my-custom-scrollbar">
+            {{ data | safe }}
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

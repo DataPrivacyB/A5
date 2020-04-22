@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'userRegistration.apps.UserregistrationConfig',
     'webScrapper.apps.WebscrapperConfig',
+    'pred_app.apps.PredAppConfig',
+    'sharevaluelr.apps.SharevaluelrConfig',
     'portfolioOptimization.apps.PortfoliooptimizationConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -65,7 +67,7 @@ ROOT_URLCONF = 'A5.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

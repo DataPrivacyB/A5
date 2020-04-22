@@ -64,7 +64,7 @@ def getClusters():
     normalizer = Normalizer()
     #
     # # create a K-means model with 10 clusters
-    kmeans = KMeans(n_clusters=4 ,max_iter=10000)
+    kmeans = KMeans(n_clusters=4 ,max_iter=10)
 
 
     # # make a pipeline chaining normalizer and kmeans
@@ -86,7 +86,7 @@ def getClusters():
     reduced_data = PCA(n_components = 2).fit_transform(new)
 
     # # run kmeans on reduced data
-    kmeans = KMeans(n_clusters=4, max_iter=100)
+    kmeans = KMeans(n_clusters=4, max_iter=10)
     kmeans.fit(reduced_data)
     labels = kmeans.predict(reduced_data)
 

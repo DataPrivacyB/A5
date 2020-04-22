@@ -1,4 +1,4 @@
-{% extends "userRegistration/base.html" %}
+{% extends "userRegistration/base1.html" %}
 {% load static %}
 {% load crispy_forms_tags %}
 {% block content %}
@@ -8,12 +8,12 @@
         <div class="p-3 border bg-white" >
             <form class="form-horizontal" method="POST">
                 <legend class="border-bottom mb-4" style="padding-left:175px">Log In</legend>
-                <div class="container" style="padding-left:160px">
-                    <img src = "{%static "login1.png" %}" heigh=100 width = 100 />
+                <div >
+                    <img style="height:150px;padding-left:130px" src = "{%static "login1.png" %}"  />
                 </div>
                 {% csrf_token %}
                 {{ form | crispy }}
-                <a class="font-weight-bold ml-2" style=" padding-left:230px "  href="{% url 'password_reset' %}">Forgot Your Password?</a>
+                <a class="font-weight-bold ml-2" style=" padding-left:200px "  href="{% url 'password_reset' %}">Forgot Your Password?</a>
                 <div class="form-group" style="padding-top:10px">
                     <button class="btn btn-outline-info btn-block"  type="submit">Login</button>
                 </div>

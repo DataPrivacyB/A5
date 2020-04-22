@@ -8,11 +8,17 @@ class Shares(models.Model):
     def __str__(self):
         return self.Name
 
+class EncShares(models.Model):
+    Name = models.CharField(max_length=1000)
+    def __str__(self):
+        return self.Name
+
+
 
 class SharesHeld(models.Model):
-    Name = models.CharField(max_length=100)
+    Name = models.CharField(max_length=1000)
     Price = models.FloatField()
-    Quantity = models.IntegerField()
+    Quantity = models.BigIntegerField()
     #owner = models.ForeignKey(User,on_delete=models.CASCADE)
 
     def __str__(self):

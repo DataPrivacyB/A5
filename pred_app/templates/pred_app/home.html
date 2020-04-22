@@ -1,0 +1,175 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type = "text/css" href="{% static 'pred_app/css/components.css' %}">
+      <link rel="stylesheet" type = "text/css" href="{% static 'pred_app/css/icons.css' %}">
+      <link rel="stylesheet" type = "text/css" href="{% static 'pred_app/css/responsee.css' %}">
+      <link rel="stylesheet" type = "text/css" href="{% static 'pred_app/owl-carousel/owl.carousel.css' %}">
+      <link rel="stylesheet" type = "text/css" href="{% static 'pred_app/owl-carousel/owl.theme.css' %}">
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" type = "text/css" href="{% static 'pred_app/css/template-style.css' %}">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="{% static 'pred_app/js/jquery-1.8.3.min.js' %}"></script>
+      <script type="text/javascript" src="{% static 'pred_app/js/jquery-ui.min.js' %}"></script>
+
+    {%if title %}
+        <title>PredStocks-{{title}}</title>
+    {% else %}
+        <title> PredStocks </title>
+    {% endif %}
+</head>
+
+<body>
+<body class="size-1280 slide-to-left">
+<nav class="slide-nav aside-nav">
+    <ul>
+        <li>
+            <a href="{% url 'index' %}" class="btn btn-light btn-outline-secondary"> Market Watch</a>
+        </li>
+        <li>
+            <a href="{% url 'AboutProject' %}" class="btn btn-light btn-outline-secondary"> AboutProject</a>
+        </li>
+        <li>
+            <a href="{% url 'portfolio' %}" class="btn btn-light btn-outline-secondary"> Portfolio</a>
+        </li>
+        <li>
+            <a href="{% url 'profile' %}" class="btn btn-light btn-outline-secondary"> Profile</a>
+        </li>
+        <li>
+            <a href="{% url 'pred' %}" class="btn btn-light btn-outline-secondary"> Predection</a>
+        </li>
+        <li>
+            <a> </a>
+        </li>
+        <li>
+            <a> </a>
+        </li>
+        <li>
+            <a> </a>
+        </li>
+        <li>
+            <a href="{% url 'login' %}" class="btn btn-light btn-outline-secondary"> Login</a>
+        </li>
+        <li>
+            <a href="{% url 'contact' %}" class="btn btn-light btn-outline-secondary"> Contact Us</a>
+        </li>
+</nav>
+<section class="slide-content">
+    <header>
+        <!-- LOGO -->
+         <!-- LOGO -->
+          <nav>
+            <div class="line">
+               <div class="s-5 l-2 center">
+                   <img src="{% static 'pred_app/img/logo.jpg' %}" >
+
+               </div>
+            </div>
+          </nav>
+     </header>
+    <section class="text-center">
+{% block content %}
+        <!-- CAROUSEL -->
+        <div id="carousel">
+            <div id="header-carousel" class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="{% static 'pred_app/img/header-1.svg' %}" >
+                    <div class="line">
+                        <h2>Header-1 </h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="{% static 'pred_app/img/header-2.svg' %}">
+                    <div class="line">
+                        <h2>Header-2 </h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="{% static 'pred_app/img/header-3.svg' %}">
+                    <div class="line">
+                        <h2>Header-3 </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIRST BLOCK -->
+        <div id="first-block" class="text-center">
+            <div class="line">
+                <div class="margin">
+                    <div class="s-12 m-6 l-3 margin-bottom">
+
+                        <h2 class="margin-bottom">About</h2>
+                        <p>Stock Market Predection is one of the important exertions in Finance and Business. Technical analysis is done using historical data of stock prices by applying Machine Learning and future stocks are predicted.</p>
+                    </div>
+                    <div class="s-12 m-6 l-3 margin-bottom">
+
+                        <h2 class="margin-bottom">Portfolio</h2>
+                        <p>Portfolio is grouping of financial assets such as stocks and are held directly by investers and managed by financial professionals.</p>
+                    </div>
+                    <div class="s-12 m-6 l-3 margin-bottom">
+
+                        <h2 class="margin-bottom">Volatile Shares</h2>
+                        <p>Volatile Shares implies that if the volatility is high, stock's price moves a lot. Volatility is good for traders because it gives then opportunities.</p>
+                    </div>
+                    <div class="s-12 m-6 l-3 margin-bottom">
+
+                        <h2 class="margin-bottom">Transaction Validity</h2>
+                        <p>Transaction Validity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock content%}
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="line" >
+            <div class="s-12 l-offset-8">
+                <p>Stock Market Prediction</p>
+            </div>
+        </div>
+    </footer>
+</section>
+</body>
+
+<script type="text/javascript" src="{% static 'pred_app/js/responsee.js' %}"></script>
+<script type="text/javascript" src="{% static 'pred_app/owl-carousel/owl.carousel.js' %}"></script>
+<script type="text/javascript">
+        jQuery(document).ready(function($) {
+          var owl = $('#header-carousel');
+          owl.owlCarousel({
+            nav: false,
+            dots: true,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007","&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000
+          });
+          var owl = $('#news-carousel');
+          owl.owlCarousel({
+            nav: false,
+            dots: true,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007","&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000
+          });
+        })
+      </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"                          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
