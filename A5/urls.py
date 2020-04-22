@@ -22,8 +22,10 @@ from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('', include('userRegistration.urls')),
+    path('opt/', include('portfolioOptimization.urls')),
     path('userConfig/', include('userRegistration.urls')),
+    path('web/', include('webScrapper.urls')),
+
 ]
 
 if settings.DEBUG:

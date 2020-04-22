@@ -21,5 +21,5 @@ urlpatterns = [
     path('portfolio/', views.portfolio, name='portfolio'),
     path('Home/', views.Home, name='Home'),
     path('AboutProject/', views.AboutProject, name='AboutProject'),
-
+path('practice/', views.practice, name='practice'),
 ]

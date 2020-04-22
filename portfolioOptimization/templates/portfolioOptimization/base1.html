@@ -1,0 +1,91 @@
+{% load static %}
+<html>
+<head>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type = "text/css" href="{% static 'userRegistration/css/components.css' %}">
+      <link rel="stylesheet" type = "text/css" href="{% static 'userRegistration/css/icons.css' %}">
+      <link rel="stylesheet" type = "text/css" href="{% static 'userRegistration/css/responsee.css' %}">
+      <link rel="stylesheet" type = "text/css" href="{% static 'userRegistration/owl-carousel/owl.carousel.css' %}">
+      <link rel="stylesheet" type = "text/css" href="{% static 'userRegistration/owl-carousel/owl.theme.css' %}">
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" type = "text/css" href="{% static 'userRegistration/css/template-style.css' %}">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="{% static 'userRegistration/js/jquery-1.8.3.min.js' %}"></script>
+      <script type="text/javascript" src="{% static 'userRegistration/js/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'pred_app/js/handlebars.js' %}">
+    </script>
+</head>
+<body class="size-1280 slide-to-left">
+<script src="{% static 'pred_app/js/jquery.1.11.1.js'%}" type="text/javascript">
+</script>
+<script src="{% static 'pred_app/js/typeahead.js'%}">
+</script>
+<script src="{% static 'pred_app/js/search.js'%}">
+</script>
+<nav class="slide-nav aside-nav">
+        <ul>
+           <li>
+               <a href="{% url 'AboutProject' %}" class="btn btn-light btn-outline-secondary"> About</a>
+           </li>
+           <li>
+              <a href="{% url 'portfolio' %}" class="btn btn-light btn-outline-secondary"> Portfolio</a>
+            </li>
+                 <li><a>Volatile Shares</a></li>
+              </ul>
+           </li>
+           <li><a>Transaction Validity</a></li>
+        </ul>
+      </nav>
+
+      <section class="slide-content">
+              <header>
+                  <nav>
+                      <div class="line">
+                          <div class="s-5 l-2 center">
+
+                              <a class="navbar-brand mr-6 text-center" href="/">
+                                  A5 Finance
+                              </a>
+                          </div>
+                      </div>
+                  </nav>
+              </header>
+
+          <!-- FOOTER -->
+      </section>
+    </div>
+
+      <div class="row-12 myr" style="padding-top:30px;padding-left:75px">
+        {% block content %}{% endblock %}
+      </div>
+<script type="text/javascript" src="{% static 'userRegistration/js/responsee.js' %}"></script>
+      <script type="text/javascript" src="{% static 'userRegistration/owl-carousel/owl.carousel.js' %}"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          var owl = $('#header-carousel');
+          owl.owlCarousel({
+            nav: false,
+            dots: true,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007","&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000
+          });
+          var owl = $('#news-carousel');
+          owl.owlCarousel({
+            nav: false,
+            dots: true,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007","&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000
+          });
+        })
+      </script>
+</body>
+</html>

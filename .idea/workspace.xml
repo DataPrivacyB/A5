@@ -2,14 +2,189 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="227c593d-d404-45c7-8e74-431e07d2b927" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/p.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypt/ECC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ADANIPORTS.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ASIANPAINT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/AXISBANK.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BAJAJ-AUTO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BAJAJFINSV.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BAJFINANCE.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BHARTIARTL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BPCL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BRITANNIA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/CIPLA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/COALINDIA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/DRREDDY.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/EICHERMOT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/GAIL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/GRASIM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HCLTECH.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HDFC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HDFCBANK.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HEROMOTOCO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HINDALCO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HINDUNILVR.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ICICIBANK.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/INDUSINDBK.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/INFRATEL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/INFY.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/IOC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ITC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/JSWSTEEL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/KOTAKBANK.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/LT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/M&amp;M.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/MARUTI.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/NESTLEIND.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/NTPC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ONGC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/POWERGRID.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/RELIANCE.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/SBIN.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/SHREECEM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/SUNPHARMA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TATAMOTORS.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TATASTEEL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TCS.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TECHM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TITAN.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ULTRACEMCO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/UPL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/VEDL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/WIPRO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ZEEL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/ind_nifty500list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/niftyShareNames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/cluster1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/omtimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/images/fbg_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/menusearch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/responsee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/template-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/data/stock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/data/stock2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/mfglabsiconset-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/mfglabsiconset-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/mfglabsiconset-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/mfglabsiconset-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/Logos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/dplogo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/gallery-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/gallery-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/gallery-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/gallery-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header-1a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header_images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/submit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/submit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/ttt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/arial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/cuf_run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/cufon-yui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/handlebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery-1.3.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery.1.11.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/responsee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/typeahead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/typeahead_t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/AjaxLoader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/grabbing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/base1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/clustering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/p.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolioOptimization/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/1getShareData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/2createJoinedClosed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/3niftyCorelations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/4BuyHoldSell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/5AlphaVantage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/DataSets/df.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/DataSets/niftyJoinedCloses.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/DataSets/niftyShareNames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stockPrediction/lstm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userRegistration/datasets/temp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webScrapper/AgetCompanyUrls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webScrapper/CgetBalanceLinks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webScrapper/DTechAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webScrapper/EgetValuation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webScrapper/FgetBalanceSheets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webScrapper/buyHoldSell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webScrapper/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/A5/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/A5/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/A5_SECRETS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/forgotPass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/login1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/p.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userRegistration/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userRegistration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userRegistration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,40 +195,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/Home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="116" column="86" selection-start-line="116" selection-start-column="86" selection-end-line="116" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/about.html">
+        <entry file="file://$PROJECT_DIR$/crypt/kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+            <state relative-caret-position="1242">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stockPrediction/4BuyHoldSell.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PySEAL-master/SEALPythonExamples/examples.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crypt/ECC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1566">
+              <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crypt/elgamal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2241">
+              <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crypt/pallier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userRegistration/liveShares.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userRegistration/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+            <state relative-caret-position="212">
+              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -61,87 +281,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/portfolio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#1;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/userRegistration/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+            <state relative-caret-position="1439">
+              <caret line="177" column="10" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -150,20 +294,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/shares.py">
+        <entry file="file://$PROJECT_DIR$/portfolioOptimization/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="35" selection-start-line="9" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="675">
+              <caret line="28" column="15" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="15" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/FinanceA5-4cec9ccde82f.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -181,7 +320,28 @@
       <find>len</find>
       <find>bl</find>
       <find>light</find>
+      <find>get_history</find>
+      <find>af</find>
+      <find>oute</find>
+      <find>pop</find>
+      <find>outer</find>
+      <find>data</find>
+      <find>IFC</find>
+      <find>new</find>
+      <find>pred</find>
+      <find>nse</find>
       <find>form</find>
+      <find>getData</find>
+      <find>my-custom-scrollbar</find>
+      <find>thead</find>
+      <find>for</find>
+      <find>x</find>
+      <find>ur</find>
+      <find>sha</find>
+      <find>type</find>
+      <find>cluster1</find>
+      <find>plt</find>
+      <find>LETTERS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,62 +350,72 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/forgotPass/urls.py" />
-        <option value="$PROJECT_DIR$/forgotPass/templates/resetPassword.html" />
-        <option value="$PROJECT_DIR$/forgotPass/templates/forgotPass/resetPassword.html" />
-        <option value="$PROJECT_DIR$/forgotPass/views.py" />
-        <option value="$PROJECT_DIR$/A5/static/forgotPass/main.css" />
-        <option value="$PROJECT_DIR$/forgotPass/templates/forgotPass/base.html" />
-        <option value="$PROJECT_DIR$/login/urls.py" />
-        <option value="$PROJECT_DIR$/login/views.py" />
-        <option value="$PROJECT_DIR$/RegistationLogin/views.py" />
-        <option value="$PROJECT_DIR$/RegistationLogin/urls.py" />
-        <option value="$PROJECT_DIR$/registrationLogin/views.py" />
-        <option value="$PROJECT_DIR$/registrationLogin/apps.py" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/resetPassword.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_subject.txt" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_email.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_complete.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_done.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/logout.html" />
-        <option value="$PROJECT_DIR$/userRegistration/apps.py" />
-        <option value="$PROJECT_DIR$/userRegistration/signals.py" />
-        <option value="$PROJECT_DIR$/A5/urls.py" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_form.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_confirm.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/registered.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/index.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/login.html" />
-        <option value="$PROJECT_DIR$/portfolio/views.py" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/profile.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/Shares_form.html" />
-        <option value="$PROJECT_DIR$/userRegistration/admin.py" />
-        <option value="$PROJECT_DIR$/userRegistration/shares.py" />
-        <option value="$PROJECT_DIR$/A5/settings.py" />
-        <option value="$PROJECT_DIR$/userRegistration/models.py" />
-        <option value="$PROJECT_DIR$/userRegistration/liveShares.py" />
-        <option value="$PROJECT_DIR$/userRegistration/urls.py" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/p.html" />
+        <option value="$PROJECT_DIR$/userRegistration/datasets/temp1.csv" />
+        <option value="$PROJECT_DIR$/userRegistration/tests.py" />
+        <option value="$PROJECT_DIR$/stockPrediction/5AlphaVantage.py" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/clustering.html" />
         <option value="$PROJECT_DIR$/userRegistration/forms.py" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/portfolio.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/base.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/about.html" />
+        <option value="$PROJECT_DIR$/webScrapper/templates/webScrapper/base.html" />
+        <option value="$PROJECT_DIR$/webScrapper/templates/webScrapper/scrapper.html" />
+        <option value="$PROJECT_DIR$/webScrapper/urls.py" />
+        <option value="$PROJECT_DIR$/webScrapper/views.py" />
+        <option value="$PROJECT_DIR$/A5/urls.py" />
+        <option value="$PROJECT_DIR$/A5/settings.py" />
+        <option value="$PROJECT_DIR$/webScrapper/templates/webScrapper/scrape.html" />
+        <option value="$PROJECT_DIR$/webScrapper/companyTables.py" />
+        <option value="$PROJECT_DIR$/webScrapper/4companyTables.py" />
+        <option value="$PROJECT_DIR$/webScrapper/dataFiles/urls3.csv" />
+        <option value="$PROJECT_DIR$/webScrapper/templates/webScrapper/7runAll.py" />
+        <option value="$PROJECT_DIR$/webScrapper/1getCompanyUrls.py" />
+        <option value="$PROJECT_DIR$/webScrapper/2getViewUrls.py" />
+        <option value="$PROJECT_DIR$/webScrapper/3getBalanceLinks.py" />
+        <option value="$PROJECT_DIR$/webScrapper/4TechAnalysis.py" />
+        <option value="$PROJECT_DIR$/webScrapper/5getValuation.py" />
+        <option value="$PROJECT_DIR$/webScrapper/6getBalanceSheets.py" />
+        <option value="$PROJECT_DIR$/webScrapper/7runAll.py" />
+        <option value="$PROJECT_DIR$/webScrapper/G)runAll.py" />
+        <option value="$PROJECT_DIR$/webScrapper/CgetBalanceLinks.py" />
+        <option value="$PROJECT_DIR$/webScrapper/DTechAnalysis.py" />
+        <option value="$PROJECT_DIR$/webScrapper/EgetValuation.py" />
+        <option value="$PROJECT_DIR$/webScrapper/FgetBalanceSheets.py" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/js/search.js" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/base.html" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/p.html" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/base1.html" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/data/stock.json" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/data/stock2.json" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/static/pred_app/data/stock.json" />
         <option value="$PROJECT_DIR$/userRegistration/views.py" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/Home.html" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/forms.py" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/models.py" />
+        <option value="$PROJECT_DIR$/userRegistration/admin.py" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/admin.py" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/urls.py" />
+        <option value="$PROJECT_DIR$/webScrapper/AgetCompanyUrls.py" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/cluster1.py" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/clustering.html" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/views.py" />
+        <option value="$PROJECT_DIR$/portfolioOptimization/omtimization.py" />
+        <option value="$PROJECT_DIR$/PySEAL-master/SEALPythonExamples/examples.py" />
+        <option value="$PROJECT_DIR$/crypt/ECC.py" />
+        <option value="$PROJECT_DIR$/crypt/elgamal.py" />
+        <option value="$PROJECT_DIR$/crypt/kmeans.py" />
+        <option value="$PROJECT_DIR$/crypt/pallier.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,47 +428,33 @@
               <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
               <item name="userRegistration" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="userRegistration" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="userRegistration" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="userRegistration" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/userRegistration/static/userRegistration" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../paillier-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Akshay Bali\Desktop\A5\userRegistration\static\userRegistration" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5\userRegistration\templates\userRegistration" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5\userRegistration" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5\portfolio\migrations" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5\static" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\portfolioOptimization\templates\portfolioOptimization" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\portfolioOptimization" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\portfolioOptimization\static\portfolioOptimization" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\portfolioOptimization\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\portfolioOptimization" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\webScrapper" />
       <recent name="C:\Users\Akshay Bali\Desktop\A5\portfolio\static" />
       <recent name="C:\Users\Akshay Bali\Desktop\A5\userRegistration\static" />
       <recent name="C:\Users\Akshay Bali\Desktop\A5\static" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5\static\A5" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,8 +469,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.shares">
-    <configuration name="shares" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.pallier">
+    <configuration name="ECC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="A5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,11 +478,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/userRegistration" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crypt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userRegistration/shares.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crypt/ECC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,7 +491,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cluster1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="A5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,11 +499,95 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/portfolio" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/portfolioOptimization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/portfolio/views.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/portfolioOptimization/cluster1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="elgamal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="A5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crypt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crypt/elgamal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="omtimization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="A5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/portfolioOptimization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/portfolioOptimization/omtimization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pallier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="A5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crypt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crypt/pallier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scrape" type="PythonConfigurationType" factoryName="Python">
+      <module name="A5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webScrapper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Akshay Bali\Desktop\A5Pull\webScrapper\AgetCompanyUrls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,8 +598,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.shares" />
-        <item itemvalue="Python.views" />
+        <item itemvalue="Python.pallier" />
+        <item itemvalue="Python.elgamal" />
+        <item itemvalue="Python.ECC" />
+        <item itemvalue="Python.omtimization" />
+        <item itemvalue="Python.cluster1" />
       </list>
     </recent_temporary>
   </component>
@@ -377,393 +620,436 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-7" y="2" width="1378" height="733" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3207856" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.325" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149256" side_tool="true" weight="0.325" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.31914893" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149256" side_tool="true" weight="0.325" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/registrationLogin/migrations/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/registrationLogin/views.py" />
-    <entry file="file://$PROJECT_DIR$/forgotPass/urls.py" />
-    <entry file="file://$PROJECT_DIR$/forgotPass/views.py" />
-    <entry file="file://$PROJECT_DIR$/userRegistration/static/userRegistration/main.css" />
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_email.html">
+    <entry file="file://$PROJECT_DIR$/webScrapper/dataFiles/balanceSheet17.csv" />
+    <entry file="file://$PROJECT_DIR$/webScrapper/dataFiles/balanceSheet18.csv" />
+    <entry file="file://$PROJECT_DIR$/webScrapper/dataFiles/balanceSheet19.csv" />
+    <entry file="file://$PROJECT_DIR$/webScrapper/buyHoldSell.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webScrapper/CgetBalanceLinks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webScrapper/DTechAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webScrapper/EgetValuation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webScrapper/BgetViewUrls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile_pics/New_Doc_2019-08-07_18.51.52_1.jpg" />
-    <entry file="file://$PROJECT_DIR$/A5/asgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/webScrapper/FgetBalanceSheets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/login.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/stockPrediction/3niftyCorelations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/stockPrediction/2createJoinedClosed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/login1.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/login.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/webScrapper/G)runAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_subject.txt">
+    <entry file="file://$PROJECT_DIR$/stockPrediction/DataSets/minuteData/1ACC.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockPrediction/1getShareData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A5/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#626#658#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/__init__.py">
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/js/npm.js" />
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/js/search.js" />
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/data/stock.json" />
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/data/stock2.json" />
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/npm.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_confirm.html">
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/static/pred_app/data/stock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/A5_SECRETS.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/static/FinanceA5-4cec9ccde82f.json" />
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/registered.html">
+    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="478">
+          <caret line="80" column="35" selection-start-line="66" selection-start-column="28" selection-end-line="80" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/views.py" />
-    <entry file="file://$PROJECT_DIR$/portfolio/models.py" />
-    <entry file="file://$PROJECT_DIR$/portfolio/apps.py" />
-    <entry file="file://$PROJECT_DIR$/portfolio/admin.py" />
-    <entry file="file://$PROJECT_DIR$/portfolio/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_complete.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#aside#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_done.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#aside#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#legend#0;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/logout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/Shares_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="93" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="519" column="12" lean-forward="true" selection-start-line="519" selection-start-column="12" selection-end-line="519" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/userRegistration/signals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state>
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#legend#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A5/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="137" column="44" selection-start-line="137" selection-start-column="44" selection-end-line="137" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/liveShares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/owl-carousel/Home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/AboutProject.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#legend#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/static/userRegistration/css/icons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/p.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userRegistration/shares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="35" selection-start-line="9" selection-end-line="9" selection-end-column="35" />
+        <state>
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/FinanceA5-4cec9ccde82f.json">
+    <entry file="file://$PROJECT_DIR$/userRegistration/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userRegistration/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/userRegistration/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="351">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/forms.py">
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        <state relative-caret-position="108">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/base1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/p.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webScrapper/AgetCompanyUrls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webScrapper/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+        <state relative-caret-position="158">
+          <caret line="106" column="29" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/DataSets/ind_nifty500list.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/clustering.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#1;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#1;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/base.html">
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/about.html">
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        <state relative-caret-position="2727">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/Home.html">
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/omtimization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="116" column="86" selection-start-line="116" selection-start-column="86" selection-end-line="116" selection-end-column="86" />
+        <state relative-caret-position="2619">
+          <caret line="100" column="15" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/cluster1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypt/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockPrediction/4BuyHoldSell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PySEAL-master/SEALPythonExamples/examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypt/ECC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypt/elgamal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolioOptimization/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypt/pallier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userRegistration/liveShares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userRegistration/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userRegistration/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1439">
+          <caret line="177" column="10" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,11 +11,13 @@ import pandas_datareader.data as web
 import datetime as dt
 from nsepy import get_history
 
+pd.set_option('display.max_columns', None)
 def Home(request):
     return render(request,'userRegistration/home.html')
 
+
 def AboutProject(request):
-    return render(request,'userRegistration/AboutProject.html')
+    return render(request,'userRegistration/p.html')
 
 
 def index(request):
@@ -36,6 +38,10 @@ def registered(request):
 def profile(request):
     return render(request,'userRegistration/profile.html')
 
+def practice(request):
+    return render(request,'userRegistration/p.html')
+
+
 def about(request):
 
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
@@ -43,15 +49,13 @@ def about(request):
         'C:\\Users\\Akshay Bali\\Desktop\\A5\\userRegistration\\FinanceA5-4cec9ccde82f.json', scope)
     client = gspread.authorize(creds)
     sheet = client.open('A5_Finance').sheet1
-
-
+    chartData = []
     niftyData = ""
     headers = ""
     df = pd.DataFrame()
     print(headers)
     Name ="Nifty 50"
     labels = [0,1,2]
-    chartData = []
     if request.method == 'POST' and 'view' in request.POST:
         form = getDataSets(request.POST)
         if form.is_valid():
@@ -60,7 +64,9 @@ def about(request):
             if Choice == '1' :
                 niftyData = sheet.get_all_values()
                 headers = niftyData.pop(0)
+                print(headers)
                 df = pd.DataFrame(niftyData, columns=headers)
+                df.to_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\userRegistration\\datasets\\temp1.csv")
                 graphForm = plotCol()
             else :
                 Name = form.cleaned_data.get('SelectStock')
@@ -83,23 +89,29 @@ def about(request):
             Choice = graphForm.cleaned_data.get('Choice')
             Name = graphForm.cleaned_data.get('SelectStock')
             Name = str(Name)
-            print(Name)
             startDate = graphForm.cleaned_data.get('StartDate')
             EndDate = graphForm.cleaned_data.get('EndDate')
             df = get_history(symbol=Name, start=startDate, end=EndDate)
             chartData = df[Choice].values.tolist()
-            print(Choice)
-            print(len(chartData))
-            labels = list(range(0, len(chartData)))
+            df.to_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\userRegistration\\datasets\\temp.csv")
+            prac = pd.read_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\userRegistration\\datasets\\temp.csv")
+            labels = prac['Date'].values.tolist()
+            print("chartData :",chartData)
+            #labels = list(range(0,len(chartData)))
+            print("label leng:",len(labels))
+            # print(chartData)
+            print(labels)
             form = getDataSets()
 
     else:
         form = getDataSets()
         graphForm = plotCol()
+        print(dt.datetime(2019, 2, 14))
+    x = "Choice"
     context ={
         'form' : form,
         'graphForm' : graphForm,
-        'head' : Name,
+        'head': Name,
         'labels': labels,
         'chartData': chartData,
         'data' : df.iloc[0:].to_html(classes="table-borderles table-hover table-wrapper-scroll-y my-custom-scrollbar")
@@ -142,8 +154,6 @@ def portfolio(request):
             return redirect('portfolio')
     else:
         form = sharesUpdateForm()
-
-
 
 
     niftyData = sheet.get_all_values()

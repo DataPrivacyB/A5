@@ -1,0 +1,7 @@
+{% extends "portfolioOptimization/base1.html" %}
+{% load static %}
+{% block content %}
+        <form align="left" class="" id="search">
+            <input class="form-control typeahead" data-url2="{% static 'pred_app/data/stock2.json' %}" data-url="{% static 'pred_app/data/stock.json' %}" id="typeahead" placeholder="Search Stock Symbol..." type="text" usr-url=""/>
+        </form>
+{% endblock content %}

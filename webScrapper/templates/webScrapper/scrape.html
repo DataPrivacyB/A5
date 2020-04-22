@@ -1,0 +1,40 @@
+{% extends "webScrapper/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<style>
+    .myc{ border : 5px solid green }
+    .myr{ border : 2px solid red }
+</style>
+<div class = "row myr"style="padding-left:20px">
+<div class="col myc">
+    <h2>Web Scrapper</h2>
+    <div class="row myr">
+        <h2>About</h2>
+    </div>
+    <div class="row myr">
+        <h2>Scrape Button</h2>
+    </div>
+</div>
+<div class="col-9 myc">
+    <h2>Images Column</h2>
+    <div class="row myr">
+        <h2>Sectors Scanned</h2>
+    </div>
+    <div class="row myr">
+        <h2>CSV1</h2>
+    </div>
+    <div class="row myr">
+        <h2>CSV2</h2>
+    </div>
+    <div class="row myr">
+        <h2>CSV3</h2>
+    </div>
+</div>
+</div>
+
+{% endblock content %}
+
+
+
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a09bd92c-849a-4a52-9814-857762952791" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/1getShareData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/2createJoinedClosed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/3niftyCorelations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/4BuyHoldSell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/5AlphaVantage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/DataSets/df.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/DataSets/niftyJoinedCloses.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/DataSets/niftyShareNames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stockPrediction/lstm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../userRegistration/datasets/temp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webScrapper/buyHoldSell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webScrapper/cluster1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webScrapper/companyTables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webScrapper/dataFiles/urls.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webScrapper/getBalanceLinks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webScrapper/getBalanceSheets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webScrapper/getCompanyUrls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webScrapper/getValuation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userRegistration/templates/userRegistration/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../userRegistration/templates/userRegistration/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userRegistration/templates/userRegistration/p.html" beforeDir="false" afterPath="$PROJECT_DIR$/../userRegistration/templates/userRegistration/p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userRegistration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../userRegistration/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userRegistration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../userRegistration/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urls.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="A5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A5" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a09bd92c-849a-4a52-9814-857762952791" name="Default Changelist" comment="" />
+      <created>1585976684406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585976684406</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
