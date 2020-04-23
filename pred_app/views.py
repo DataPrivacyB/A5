@@ -13,20 +13,28 @@ def index(request):
 	return render(request, 'pred_app/index.html')
 
 
-def pred(request):
+def clustering(request):
+	return render(request, 'portfolioOptimization/clustering.html')
+
+def scrape(request):
+	return render(request, 'webScrapper/scrape.html')
+
+def sharevaluedetermine(request):
+	return render(request, 'webScrapper/sharevaluedetermine.html')
+
+def prediction(request):
     return render(request, 'pred_app/prediction.html')
-
-
-def contact(request):
-	return render(request, 'pred_app/contact.html')
 
 
 def home(request):
 	return render(request, 'pred_app/home.html')
 
 
-def AboutProject(request):
-	return render(request, 'pred_app/AboutProject.html')
+def about(request):
+	return render(request, 'userRegistration/about.html')
+
+def logout(request):
+	return render(request, 'userRegistration/logout.html')
 
 
 def portfolio(request):

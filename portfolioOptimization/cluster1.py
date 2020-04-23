@@ -13,14 +13,14 @@ from sklearn.datasets.samples_generator import make_blobs
 
 def getClusters():
     #tickers = pd.read_csv(".\\DataSets\\ind_nifty500list.csv")
-    tickers = pd.read_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\portfolioOptimization\\DataSets\\ind_nifty500list.csv")
+    tickers = pd.read_csv("C:\\Users\\sunilchaudhari\\Desktop\\A5\\portfolioOptimization\\DataSets\\ind_nifty500list.csv")
     # tickers = pd.read_csv(".\\DataSets\\niftyShareNames.csv")
     tickers = tickers['Symbol'][0:350]
     # tickers = tickers['TICKER'][0:49]
     stock_open = pd.DataFrame()
     stock_close = pd.DataFrame()
     for ticker in tickers:
-        df = pd.read_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\portfolioOptimization\\DataSets\\Nifty4YearsData\\{}.csv".format(ticker))
+        df = pd.read_csv("C:\\Users\\sunilchaudhari\\Desktop\\A5\\portfolioOptimization\\DataSets\\Nifty4YearsData\\{}.csv".format(ticker))
         # df = pd.read_csv(".\\DataSets\\Nifty2YearsData\\{}.csv".format(ticker))
 
         df.rename(columns={'Close': ticker}, inplace=True)
@@ -79,7 +79,7 @@ def getClusters():
     # create a DataFrame aligning labels & companies
     df = pd.DataFrame({'labels': labels, 'companies': tickers})
     df = df.sort_values('labels')
-    df.to_csv('C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\portfolioOptimization\\DataSets\\temp.csv')
+    df.to_csv('C:\\Users\\sunilchaudhari\\Desktop\\A5\\portfolioOptimization\\DataSets\\temp.csv')
 
 
      # visualize the results
@@ -97,7 +97,7 @@ def getClusters():
     # print(dfDict)
     df = pd.DataFrame({'labels': labels, 'companies': tickers})
     df = df.sort_values('labels')
-    df.to_csv('C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\portfolioOptimization\\DataSets\\temp.csv')
+    df.to_csv('C:\\Users\\sunilchaudhari\\Desktop\\A5\\portfolioOptimization\\DataSets\\temp.csv')
     return dfDict
 
     # # Define step size of mesh

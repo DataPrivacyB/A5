@@ -30,34 +30,32 @@
 <nav class="slide-nav aside-nav">
     <ul>
         <li>
-            <a href="{% url 'index' %}" class="btn btn-light btn-outline-secondary"> Market Watch</a>
+            <a href="{% url 'index' %}" class="btn btn-light btn-outline-secondary"> Home - Market Watch</a>
         </li>
         <li>
-            <a href="{% url 'AboutProject' %}" class="btn btn-light btn-outline-secondary"> AboutProject</a>
+            <a href="{% url 'about' %}" class="btn btn-light btn-outline-secondary"> About</a>
         </li>
         <li>
             <a href="{% url 'portfolio' %}" class="btn btn-light btn-outline-secondary"> Portfolio</a>
         </li>
         <li>
-            <a href="{% url 'profile' %}" class="btn btn-light btn-outline-secondary"> Profile</a>
+            <a href="{% url 'prediction' %}" class="btn btn-light btn-outline-secondary"> LSTM Prediction</a>
         </li>
         <li>
-            <a href="{% url 'pred' %}" class="btn btn-light btn-outline-secondary"> Predection</a>
+            <a href="{% url 'sharevaluedetermine' %}" class="btn btn-light btn-outline-secondary"> Linear Regression</a>
+        </li>
+       <li>
+            <a href="{% url 'clustering' %}" class="btn btn-light btn-outline-secondary"> Clustering</a>
+        </li>
+       <li>
+            <a href="{% url 'scrape' %}" class="btn btn-light btn-outline-secondary"> Web Scrapping BOT</a>
+        </li>
         </li>
         <li>
             <a> </a>
         </li>
         <li>
-            <a> </a>
-        </li>
-        <li>
-            <a> </a>
-        </li>
-        <li>
-            <a href="{% url 'login' %}" class="btn btn-light btn-outline-secondary"> Login</a>
-        </li>
-        <li>
-            <a href="{% url 'contact' %}" class="btn btn-light btn-outline-secondary"> Contact Us</a>
+            <a href="{% url 'logout' %}" class="btn btn-light btn-outline-secondary"> Logout</a>
         </li>
 </nav>
 <section class="slide-content">
@@ -66,9 +64,11 @@
          <!-- LOGO -->
           <nav>
             <div class="line">
-               <div class="s-5 l-2 center">
-                   <img src="{% static 'pred_app/img/logo.jpg' %}" >
-
+               <div class="s-5 l-2 center" font-color="green" >
+                  <!-- <img src="{% static 'pred_app/img/logo.jpg' %}" > -->
+                   <a class="navbar-brand" href="/">
+                   <b> Secure Stock Prediction</b>
+                       </a>
                </div>
             </div>
           </nav>

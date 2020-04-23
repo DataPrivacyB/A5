@@ -65,7 +65,7 @@ def about(request):
 
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name(
-        'C:\\Users\\Akshay Bali\\Desktop\\A5\\userRegistration\\FinanceA5-4cec9ccde82f.json', scope)
+        'C:\\Users\\sunilchaudhari\\Desktop\\A5\\userRegistration\\FinanceA5-4cec9ccde82f.json', scope)
     client = gspread.authorize(creds)
     sheet = client.open('A5_Finance').sheet1
     chartData = []
@@ -85,7 +85,7 @@ def about(request):
                 headers = niftyData.pop(0)
                 print(headers)
                 df = pd.DataFrame(niftyData, columns=headers)
-                df.to_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\userRegistration\\datasets\\temp1.csv")
+                df.to_csv("C:\\Users\\sunilchaudhari\\Desktop\\A5Pull\\userRegistration\\datasets\\temp1.csv")
                 graphForm = plotCol()
             else :
                 Name = form.cleaned_data.get('SelectStock')
@@ -112,8 +112,8 @@ def about(request):
             EndDate = graphForm.cleaned_data.get('EndDate')
             df = get_history(symbol=Name, start=startDate, end=EndDate)
             chartData = df[Choice].values.tolist()
-            df.to_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\userRegistration\\datasets\\temp.csv")
-            prac = pd.read_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\userRegistration\\datasets\\temp.csv")
+            df.to_csv("C:\\Users\\sunilchaudhari\\Desktop\\A5Pull\\userRegistration\\datasets\\temp.csv")
+            prac = pd.read_csv("C:\\Users\\sunilchaudhari\\Desktop\\A5Pull\\userRegistration\\datasets\\temp.csv")
             labels = prac['Date'].values.tolist()
             print("chartData :",chartData)
             #labels = list(range(0,len(chartData)))
@@ -143,7 +143,7 @@ def portfolio(request):
 
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name(
-        'C:\\Users\\Akshay Bali\\Desktop\\A5\\userRegistration\\FinanceA5-4cec9ccde82f.json', scope)
+        'C:\\Users\\sunilchaudhari\\Desktop\\A5\\userRegistration\\FinanceA5-4cec9ccde82f.json', scope)
     client = gspread.authorize(creds)
     sheet = client.open('A5_Finance').sheet1
 
@@ -218,3 +218,5 @@ def portfolio(request):
         'invest' : investment
     }
     return render(request,'userRegistration/portfolio.html',context)
+
+

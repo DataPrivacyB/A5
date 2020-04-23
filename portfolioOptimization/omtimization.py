@@ -11,7 +11,7 @@ def Optimize(tickers):
     for ticker in tickers:
     #stocks = ['AAPL', 'AMZN', 'MSFT', 'YHOO']
         #print(ticker)
-        df1 = pd.read_csv("C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\portfolioOptimization\\DataSets\\Nifty4YearsData\\{}.csv".format(ticker))
+        df1 = pd.read_csv("C:\\Users\\sunilchaudhari\\Desktop\\A5Pull\\portfolioOptimization\\DataSets\\Nifty4YearsData\\{}.csv".format(ticker))
         df1.rename(columns={'Close' :ticker},inplace = True)
         df1 = df1[ticker]
         tot = pd.concat([tot,df1],axis=1)

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" style="background-image: url(https://wallpapercave.com/wp/wp2800193.jpg);">
 
@@ -77,80 +78,72 @@
         <script src="{% static 'pred_app/js/search.js'%}">
         </script>
 
-        <nav class="slide-nav aside-nav">
+    <nav class="slide-nav aside-nav">
     <ul>
         <li>
-            <a href="{% url 'AboutProject' %}" class="btn btn-light btn-outline-secondary"> About</a>
+            <a href="{% url 'index' %}" class="btn btn-light btn-outline-secondary"> Home - Market Watch</a>
+        </li>
+        <li>
+            <a href="{% url 'about' %}" class="btn btn-light btn-outline-secondary"> About</a>
         </li>
         <li>
             <a href="{% url 'portfolio' %}" class="btn btn-light btn-outline-secondary"> Portfolio</a>
         </li>
-        <li><a>Volatile Shares</a></li>
-    </ul>
-    </li>
-    <li><a>Transaction Validity</a></li>
-    </ul>
+        <li>
+            <a href="{% url 'prediction' %}" class="btn btn-light btn-outline-secondary"> LSTM Prediction</a>
+        </li>
+        <li>
+            <a href="{% url 'sharevaluedetermine' %}" class="btn btn-light btn-outline-secondary"> Linear Regression</a>
+        </li>
+       <li>
+            <a href="{% url 'clustering' %}" class="btn btn-light btn-outline-secondary"> Clustering</a>
+        </li>
+       <li>
+            <a href="{% url 'scrape' %}" class="btn btn-light btn-outline-secondary"> Web Scrapping BOT</a>
+        </li>
+        </li>
+        <li>
+            <a> </a>
+        </li>
+        <li>
+            <a href="{% url 'logout' %}" class="btn btn-light btn-outline-secondary"> Logout</a>
+        </li>
 </nav>
 
 <section class="slide-content">
     <header>
         <!-- LOGO -->
-        <nav>
+         <!-- LOGO -->
+          <nav>
             <div class="line">
-                <div class="s-5 l-2 center">
-
-                    <a class="navbar-brand mr-6 text-center" href="/">
-                        Data Privacy
-                    </a>
-                </div>
+               <div class="s-5 l-2 center" font-color="green" >
+                  <!-- <img src="{% static 'pred_app/img/logo.jpg' %}" > -->
+                   <a class="navbar-brand" href="/">
+                   <b> Secure Stock Prediction</b>
+                       </a>
+               </div>
             </div>
-        </nav>
-    </header>
+          </nav>
+     </header>
     <section class="text-center">
 
         <!-- CAROUSEL -->
 {% block content %} {% endblock content%}
         <!-- FIRST BLOCK -->
-        <div id="first-block" class="text-center">
-            <div class="line">
-                <div class="margin">
-                    <div class="s-12 m-6 l-3 margin-bottom">
-
-                        <h2 class="margin-bottom">About</h2>
-                        <p>Stock Market Predection is one of the important exertions in Finance and Business. Technical analysis is done using historical data of stock prices by applying Machine Learning and future stocks are predicted.</p>
-                    </div>
-                    <div class="s-12 m-6 l-3 margin-bottom">
-
-                        <h2 class="margin-bottom">Portfolio</h2>
-                        <p>Portfolio is grouping of financial assets such as stocks and are held directly by investers and managed by financial professionals.</p>
-                    </div>
-                    <div class="s-12 m-6 l-3 margin-bottom">
-
-                        <h2 class="margin-bottom">Volatile Shares</h2>
-                        <p>Volatile Shares implies that if the volatility is high, stock's price moves a lot. Volatility is good for traders because it gives then opportunities.</p>
-                    </div>
-                    <div class="s-12 m-6 l-3 margin-bottom">
-
-                        <h2 class="margin-bottom">Transaction Validity</h2>
-                        <p>Transaction Validity.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- FOOTER -->
+   <!-- FOOTER -->
     <footer>
-        <div class="line">
-            <div class="s-12 l-6">
+        <div class="line" >
+            <div class="s-12 l-offset-8">
                 <p>Stock Market Prediction</p>
-            </div>
-            <div class="s-12 l-6">
-                <a class="right" title="Responsee - lightweight responsive framework"></a>
             </div>
         </div>
     </footer>
 </section>
+</section>
+</body>
+
 <script type="text/javascript" src="{% static 'userRegistration/js/responsee.js' %}"></script>
 <script type="text/javascript" src="{% static 'userRegistration/owl-carousel/owl.carousel.js' %}"></script>
 <script type="text/javascript">
@@ -177,8 +170,33 @@
           });
         })
       </script>
-</body>
 
+<script type="text/javascript" src="{% static 'pred_app/js/responsee.js' %}"></script>
+<script type="text/javascript" src="{% static 'pred_app/owl-carousel/owl.carousel.js' %}"></script>
+<script type="text/javascript">
+     jQuery(document).ready(function($) {
+          var owl = $('#header-carousel');
+          owl.owlCarousel({
+            nav: false,
+            dots: true,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007","&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000
+          });
+          var owl = $('#news-carousel');
+          owl.owlCarousel({
+            nav: false,
+            dots: true,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007","&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000
+          });
+        })
+      </script>
 
 
 

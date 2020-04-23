@@ -1,303 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="227c593d-d404-45c7-8e74-431e07d2b927" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crypt/ECC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ADANIPORTS.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ASIANPAINT.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/AXISBANK.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BAJAJ-AUTO.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BAJAJFINSV.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BAJFINANCE.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BHARTIARTL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BPCL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/BRITANNIA.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/CIPLA.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/COALINDIA.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/DRREDDY.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/EICHERMOT.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/GAIL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/GRASIM.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HCLTECH.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HDFC.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HDFCBANK.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HEROMOTOCO.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HINDALCO.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/HINDUNILVR.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ICICIBANK.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/INDUSINDBK.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/INFRATEL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/INFY.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/IOC.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ITC.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/JSWSTEEL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/KOTAKBANK.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/LT.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/M&amp;M.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/MARUTI.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/NESTLEIND.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/NTPC.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ONGC.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/POWERGRID.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/RELIANCE.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/SBIN.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/SHREECEM.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/SUNPHARMA.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TATAMOTORS.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TATASTEEL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TCS.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TECHM.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/TITAN.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ULTRACEMCO.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/UPL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/VEDL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/WIPRO.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/Nifty2YearsData/ZEEL.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/ind_nifty500list.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/DataSets/niftyShareNames.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/cluster1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/omtimization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/components.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/images/fbg_line.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/menusearch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/responsee.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/css/template-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/data/stock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/data/stock2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/Simple-Line-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/Simple-Line-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/Simple-Line-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/mfglabsiconset-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/mfglabsiconset-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/mfglabsiconset-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/font/mfglabsiconset-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/font-awesome/fonts/fontawesome-webfont-v=4.3.0.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/Logos.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/dplogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/gallery-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/gallery-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/gallery-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/gallery-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header-1a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header_b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/header_images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/image7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/search.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/submit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/submit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/img/ttt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/arial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/cuf_run.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/cufon-yui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/handlebars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery-1.3.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/jquery.1.11.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/modernizr.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/responsee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/typeahead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/js/typeahead_t.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/AjaxLoader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/grabbing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/static/pred_app/owl-carousel/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/base1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/clustering.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/p.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolioOptimization/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/1getShareData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/2createJoinedClosed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/3niftyCorelations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/4BuyHoldSell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/5AlphaVantage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/DataSets/df.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/DataSets/niftyJoinedCloses.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/DataSets/niftyShareNames.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stockPrediction/lstm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userRegistration/datasets/temp.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webScrapper/AgetCompanyUrls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webScrapper/CgetBalanceLinks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webScrapper/DTechAnalysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webScrapper/EgetValuation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webScrapper/FgetBalanceSheets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webScrapper/buyHoldSell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webScrapper/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/A5/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/A5/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/A5_SECRETS.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/forgotPass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/liveShares.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/liveShares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/p.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/p.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userRegistration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userRegistration/views.py" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="227c593d-d404-45c7-8e74-431e07d2b927" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_complete.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/registered.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/userRegistration/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_confirm.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_done.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_email.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/base1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -307,191 +15,33 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>len</find>
-      <find>bl</find>
-      <find>light</find>
-      <find>get_history</find>
-      <find>af</find>
-      <find>oute</find>
-      <find>pop</find>
-      <find>outer</find>
-      <find>data</find>
-      <find>IFC</find>
-      <find>new</find>
-      <find>pred</find>
-      <find>nse</find>
-      <find>getData</find>
-      <find>my-custom-scrollbar</find>
-      <find>thead</find>
-      <find>for</find>
-      <find>x</find>
-      <find>ur</find>
-      <find>sha</find>
-      <find>type</find>
-      <find>cluster1</find>
-      <find>plt</find>
-      <find>LETTERS</find>
-      <find>form</find>
-      <find>Price</find>
-      <find>X</find>
-      <find>Value</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/webScrapper/4TechAnalysis.py" />
-        <option value="$PROJECT_DIR$/webScrapper/5getValuation.py" />
-        <option value="$PROJECT_DIR$/webScrapper/6getBalanceSheets.py" />
-        <option value="$PROJECT_DIR$/webScrapper/7runAll.py" />
-        <option value="$PROJECT_DIR$/webScrapper/G)runAll.py" />
-        <option value="$PROJECT_DIR$/webScrapper/CgetBalanceLinks.py" />
-        <option value="$PROJECT_DIR$/webScrapper/DTechAnalysis.py" />
-        <option value="$PROJECT_DIR$/webScrapper/EgetValuation.py" />
-        <option value="$PROJECT_DIR$/webScrapper/FgetBalanceSheets.py" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/js/search.js" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/base.html" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/p.html" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/base1.html" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/data/stock.json" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/static/portfolioOptimization/data/stock2.json" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/static/pred_app/data/stock.json" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/forms.py" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/models.py" />
-        <option value="$PROJECT_DIR$/userRegistration/admin.py" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/admin.py" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/urls.py" />
-        <option value="$PROJECT_DIR$/webScrapper/AgetCompanyUrls.py" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/clustering.html" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/views.py" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/omtimization.py" />
-        <option value="$PROJECT_DIR$/PySEAL-master/SEALPythonExamples/examples.py" />
-        <option value="$PROJECT_DIR$/crypt/ECC.py" />
-        <option value="$PROJECT_DIR$/crypt/elgamal.py" />
-        <option value="$PROJECT_DIR$/crypt/pallier.py" />
-        <option value="$PROJECT_DIR$/userRegistration/models.py" />
-        <option value="$PROJECT_DIR$/userRegistration/liveShares.py" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/DataSets/temp.csv" />
-        <option value="$PROJECT_DIR$/userRegistration/cluster1.py" />
-        <option value="$PROJECT_DIR$/crypt/kmeans.py" />
-        <option value="$PROJECT_DIR$/sharevaluelr/valuepredictor.py" />
-        <option value="$PROJECT_DIR$/userRegistration/forms.py" />
-        <option value="$PROJECT_DIR$/userRegistration/urls.py" />
-        <option value="$PROJECT_DIR$/portfolioOptimization/cluster1.py" />
-        <option value="$PROJECT_DIR$/pred_app/urls.py" />
-        <option value="$PROJECT_DIR$/A5/urls.py" />
-        <option value="$PROJECT_DIR$/pred_app/views.py" />
-        <option value="$PROJECT_DIR$/A5/settings.py" />
-        <option value="$PROJECT_DIR$/sharevaluelr/forms.py" />
-        <option value="$PROJECT_DIR$/sharevaluelr/templates/sharevaluelr/sharevaluedetermine.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/login.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_form.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/base1.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_confirm.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_complete.html" />
-        <option value="$PROJECT_DIR$/userRegistration/templates/userRegistration/index.html" />
-        <option value="$PROJECT_DIR$/userRegistration/views.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="A5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolioOptimization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolioOptimization" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolioOptimization" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolioOptimization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="sharevaluelr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="sharevaluelr" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="sharevaluelr" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="sharevaluelr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="userRegistration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="userRegistration" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5Pull" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5Pull" type="462c0819:PsiDirectoryNode" />
-              <item name="userRegistration" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="userRegistration" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1au3YSU6q2lvVWO4qWttRN1jEmI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sharevaluelr/templates/sharevaluelr" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/userRegistration/templates/userRegistration" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sunilchaudhari\Desktop\A5\userRegistration\templates\userRegistration" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\sharevaluelr\templates\sharevaluelr" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\portfolioOptimization" />
+      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\userRegistration\templates\userRegistration" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\portfolioOptimization" />
       <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\webScrapper" />
@@ -499,25 +49,6 @@
       <recent name="C:\Users\Akshay Bali\Desktop\A5\userRegistration\static" />
       <recent name="C:\Users\Akshay Bali\Desktop\A5\static" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\sharevaluelr\templates\sharevaluelr" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\portfolioOptimization" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\userRegistration\templates\userRegistration" />
-      <recent name="C:\Users\Akshay Bali\Desktop\A5Pull\userRegistration" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.cluster1 (1)">
     <configuration name="ECC" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -532,9 +63,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crypt/ECC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="A5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -553,6 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/userRegistration/cluster1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -574,6 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/portfolioOptimization/cluster1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -595,6 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crypt/elgamal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -616,6 +173,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crypt/pallier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -637,6 +195,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Akshay Bali\Desktop\A5Pull\webScrapper\AgetCompanyUrls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -666,413 +225,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584599214733</updated>
+      <workItem from="1587571728383" duration="1789000" />
+      <workItem from="1587573575073" duration="1809000" />
+      <workItem from="1587575516269" duration="1576000" />
+      <workItem from="1587578213824" duration="625000" />
+      <workItem from="1587579932317" duration="380000" />
+      <workItem from="1587580504326" duration="1777000" />
+      <workItem from="1587582326521" duration="1773000" />
+      <workItem from="1587584139917" duration="1627000" />
+      <workItem from="1587615740521" duration="314000" />
+      <workItem from="1587616783637" duration="1772000" />
+      <workItem from="1587618686449" duration="1775000" />
+      <workItem from="1587620513306" duration="1797000" />
+      <workItem from="1587622355885" duration="1577000" />
+      <workItem from="1587624131542" duration="1081000" />
+      <workItem from="1587626102768" duration="1853000" />
+      <workItem from="1587628086181" duration="1778000" />
+      <workItem from="1587629908072" duration="617000" />
+      <workItem from="1587630593667" duration="1118000" />
+      <workItem from="1587631830324" duration="586000" />
+      <workItem from="1587632495163" duration="1814000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.325" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149256" side_tool="true" weight="0.325" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.31914893" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149256" side_tool="true" weight="0.325" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/portfolioOptimization/DataSets/temp.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3267">
-          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/paillier/kmeans">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/paillier/kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/FinanceA5-4cec9ccde82f.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/datasets/temp1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharevaluelr/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharevaluelr/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharevaluelr/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharevaluelr/valuepredictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolioOptimization/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypt/kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/edituser.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webScrapper/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/paillier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/cluster1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2970">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockPrediction/4BuyHoldSell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="81" column="35" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolioOptimization/cluster1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A5/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#626#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/templates/pred_app/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/templates/pred_app/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/static/pred_app/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/lstm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/lstm_prediction.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A5/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1726">
-          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pred_app/static/pred_app/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="62" column="3" lean-forward="true" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharevaluelr/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharevaluelr/templates/sharevaluelr/base1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharevaluelr/templates/sharevaluelr/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolioOptimization/templates/portfolioOptimization/clustering.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="8" selection-end-line="99" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sharevaluelr/templates/sharevaluelr/sharevaluedetermine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#th#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#legend#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_subject.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_done.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_email.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/base1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/password_reset_complete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/registered.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/templates/userRegistration/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userRegistration/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="6" key="SettingsEditor" timestamp="1587571757260">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587571757260" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587632495147">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587632495147" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pred_app/lstm_prediction.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

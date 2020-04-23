@@ -13,7 +13,7 @@ import numpy as np
 
 
 def calculate_value(value1,value2,value3):
-    shr=pd.read_csv('C:\\Users\\Akshay Bali\\Desktop\\A5Pull\\sharevaluelr\\nifty50.csv')
+    shr=pd.read_csv('C:\\Users\\sunilchaudhari\\Desktop\\A5\\sharevaluelr\\nifty50.csv')
     feature_column=['open', 'high', 'low']
     target_column=['close']
 
